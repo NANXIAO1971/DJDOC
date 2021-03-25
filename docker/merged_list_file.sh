@@ -119,4 +119,4 @@
 13 8,16,20 * * * sleep $((RANDOM % $RANDOM_DELAY_MAX)); spnode /scripts/jd_jxd.js |ts >> /scripts/logs/jd_jxd.log 2>&1
 
 # 必须要的默认定时任务请勿删除
-43 10 * * * docker_entrypoint.sh |ts >> /scripts/logs/default_task.log 2>&1
+58 17 * * * docker_entrypoint.sh |ts >> /scripts/logs/default_task.log 2>&1
